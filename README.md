@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+If I were to explain semantic HTML to the next cohort, I would start by defining HTMl ( hyper text markup language) Symantic, provides meaning to what the mark up is. And from there I would then use the house analogy- HTML would be the foundation when building a house. CSS is the architecure, java script the electircal and plumbing. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+With display inline you can manipulate the height and width of a element, and with inline block there is no automatic line break allowing you to place elements closer to eachother.
 
 3. What are the 4 areas of the box model?
 
+Margin, padding, border, and content. 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The Cross Axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable for a team because it allows the original code to remain intack while contributors add, subtract or re-write the code. This is accomplished by each contributor using their own "branch" to edit the code with out overwriting the original. It is also time stamped allowing contributors to go back and review different changes in the work they have done, should they need to manipulate the code they are currently working with, with an older version.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

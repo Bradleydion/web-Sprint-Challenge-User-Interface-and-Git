@@ -55,8 +55,25 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
-h1, h2, h3, h4, h5 {
+header{
+    display:flex;
+    margin: 1.8% 22% 2%;
+    align-items: baseline;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin: 0 2%;
+}
+header a {
+    text-decoration: none;
+    color: black
+}
+h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -70,7 +87,9 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.container img {
+    margin: 0 0 2%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +102,13 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+.top-content .text-container-about {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+.text-container-about{
+    margin: 0 3%;
 }
 
 .middle-content {
@@ -101,15 +127,129 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background-color:teal;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color:gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color:cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color:coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color:crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color:forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color:darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color:hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color:indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color:dodgerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+    display:flex ;
+    flex-flow: column wrap;
+    width: 45%;
+}
+.card a{
+    background-color:white;
+    border: 2px solid;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    margin: 10px 200px 10px 0;
 }
 
 .bottom-content {
@@ -143,4 +283,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-footer{
+    margin-top: 10%;
 }
