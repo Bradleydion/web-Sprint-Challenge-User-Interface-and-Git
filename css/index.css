@@ -57,17 +57,17 @@ html, body {
 }
 header{
     display:flex;
-    margin: 10px 22% 2%;
+    margin: 1.8% 22% 2%;
     align-items: baseline;
 }
 header nav{
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-    margin: 0 5%;
+    margin: 0 2%;
 }
 header a {
     text-decoration: none;
@@ -107,8 +107,11 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.text-container-about{
+    margin: 0 3%;
+}
 
-.middle-content, {
+.middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -230,12 +233,11 @@ p {
     justify-content: space-around;
 }
 .card{
-    margin-bottom: 20px;
+    margin-bottom: 5%;
     border-bottom: 1px dashed black;
     display:flex ;
     flex-flow: column wrap;
     width: 45%;
-    justify-content: left;
 }
 .card a{
     background-color:white;
@@ -247,7 +249,7 @@ p {
     text-decoration: none;
     display:inline-block;
     font-size: 16px;
-    margin: 10px 30% 10px;
+    margin: 10px 200px 10px 0;
 }
 
 .bottom-content {
@@ -281,4 +283,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-footer{
+    margin-top: 10%;
 }
